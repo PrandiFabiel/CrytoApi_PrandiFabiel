@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fabie\\OneDrive\\Desktop\\UCNE-2022-2\\Aplicada2\\CrytoApi\\CrytoApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fabie\\OneDrive\\Desktop\\UCNE-2022-2\\Aplicada2\\CrytoApi\\CrytoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabie\\OneDrive\\Desktop\\UCNE-2022-2\\Aplicada2\\CrytoApi\\CrytoApi.csproj",
+        "projectName": "CrytoApi",
+        "projectPath": "C:\\Users\\fabie\\OneDrive\\Desktop\\UCNE-2022-2\\Aplicada2\\CrytoApi\\CrytoApi.csproj",
+        "packagesPath": "C:\\Users\\fabie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabie\\OneDrive\\Desktop\\UCNE-2022-2\\Aplicada2\\CrytoApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityframeworkCore.sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityframeworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
